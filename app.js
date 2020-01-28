@@ -6,5 +6,10 @@ Vue.component("cardie",{
 
 })
 new Vue({
-    el:"#app"
+    el:"#app",
+    data(){
+        return {
+            cards: ['King', 'Ace', 'Queen', 'Joker', 'YDKJS']
+        }
+    }
 })
